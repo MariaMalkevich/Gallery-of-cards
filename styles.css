@@ -49,22 +49,6 @@ padding: 0 20px;
   opacity: 0;
 }
 
-.slide p 
-{
-  position: absolute;
-  font-size: 14px;
-  bottom: 50px;
-  left: 20px;
-  margin: 0;
-  opacity: 0;
-}
-
-.slide.active p 
-{ 
-  opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
-}
-
 .slide.active
 {
   flex: 10;
@@ -76,8 +60,3 @@ padding: 0 20px;
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media only screen and (max-width : 250px) {
-  .slide  h3    {
-    bottom: 200px;
-  }
-  }
